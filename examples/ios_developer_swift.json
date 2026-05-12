@@ -1,0 +1,282 @@
+{
+  "vacancy_name": "IOS Developer Swift",
+  "generated_at": "2026-05-12T18:04:05.857205",
+  "logs": [
+    "[2026-05-12 18:04:05.858643] Skill Agent started searching for IOS Developer Swift",
+    "[2026-05-12 18:04:29.823697] Salary Agent started searching for IOS Developer Swift",
+    "[2026-05-12 18:04:43.356209] Study Agent started searching for IOS Developer Swift",
+    "[2026-05-12 18:05:12.186645] Study Agent started searching for IOS Developer Swift"
+  ],
+  "skill_map": {
+    "skill_map": {
+      "languages": [
+        {
+          "name": "Swift 5.x",
+          "demand": "important",
+          "trend": "stable"
+        },
+        {
+          "name": "Swift 6.x",
+          "demand": "critical",
+          "trend": "growing"
+        }
+      ],
+      "frameworks": [
+        {
+          "name": "UIKit",
+          "demand": "important",
+          "trend": "stable"
+        },
+        {
+          "name": "SwiftUI",
+          "demand": "critical",
+          "trend": "growing"
+        },
+        {
+          "name": "Combine",
+          "demand": "critical",
+          "trend": "growing"
+        },
+        {
+          "name": "Core Data",
+          "demand": "important",
+          "trend": "stable"
+        },
+        {
+          "name": "Firebase",
+          "demand": "important",
+          "trend": "stable"
+        },
+        {
+          "name": "Realm",
+          "demand": "critical",
+          "trend": "growing"
+        },
+        {
+          "name": "Xcode",
+          "demand": "important",
+          "trend": "stable"
+        }
+      ],
+      "infrastructure": [
+        {
+          "name": "Git",
+          "demand": "critical",
+          "trend": "stable"
+        },
+        {
+          "name": "Fastlane",
+          "demand": "critical",
+          "trend": "growing"
+        },
+        {
+          "name": "CI/CD (Jenkins, XCode server, Gitlab CI/CD, Bitrise, TeamCity)",
+          "demand": "critical",
+          "trend": "growing"
+        },
+        {
+          "name": "Google Firebase",
+          "demand": "important",
+          "trend": "stable"
+        },
+        {
+          "name": "AWS",
+          "demand": "important",
+          "trend": "growing"
+        }
+      ],
+      "soft-skills": [
+        {
+          "name": "Принципы программирования (DRY, KISS, YAGNI)",
+          "demand": "critical",
+          "trend": "stable"
+        },
+        {
+          "name": "Объектно-ориентированное программирование",
+          "demand": "critical",
+          "trend": "stable"
+        },
+        {
+          "name": "Работа в команде",
+          "demand": "important",
+          "trend": "growing"
+        },
+        {
+          "name": "Управление временем",
+          "demand": "important",
+          "trend": "stable"
+        }
+      ]
+    }
+  },
+  "salary_report": {
+    "grades_table": {
+      "Junior": {
+        "Москва": {
+          "min": 80.0,
+          "median": 120.0,
+          "max": 150.0
+        },
+        "Регионы РФ": {
+          "min": 60.0,
+          "median": 75.0,
+          "max": 90.0
+        },
+        "Remote": {
+          "min": 1100.0,
+          "median": 1200.0,
+          "max": 1300.0
+        }
+      },
+      "Middle": {
+        "Москва": {
+          "min": 200.0,
+          "median": 260.0,
+          "max": 320.0
+        },
+        "Регионы РФ": {
+          "min": 160.0,
+          "median": 200.0,
+          "max": 240.0
+        },
+        "Remote": {
+          "min": 2500.0,
+          "median": 2750.0,
+          "max": 3000.0
+        }
+      },
+      "Senior": {
+        "Москва": {
+          "min": 350.0,
+          "median": 425.0,
+          "max": 500.0
+        },
+        "Регионы РФ": {
+          "min": 300.0,
+          "median": 350.0,
+          "max": 400.0
+        },
+        "Remote": {
+          "min": 4000.0,
+          "median": 4750.0,
+          "max": 5500.0
+        }
+      }
+    },
+    "market_trend": "growing",
+    "top_employers": [
+      "Yandex",
+      "Sber",
+      "Ozon",
+      "Tinkoff",
+      "Avito"
+    ]
+  },
+  "study_plan": {
+    "learning_path": [
+      {
+        "phase_name": "Foundation",
+        "topics": [
+          "Swift 6.x",
+          "SwiftUI",
+          "Combine",
+          "Realm",
+          "Git",
+          "Fastlane",
+          "CI/CD",
+          "Принципы программирования",
+          "Объектно-ориентированное программирование"
+        ],
+        "resources": [
+          {
+            "name": "iOS-разработчик с нуля",
+            "resource_type": "курс",
+            "url": "https://kurshub.ru/kursy/luchshie-swift-kursy"
+          },
+          {
+            "name": "iOS Developer. Professional",
+            "resource_type": "курс",
+            "url": "https://kurshub.ru/kursy/luchshie-swift-kursy"
+          }
+        ],
+        "milestone": "Завершить базовые курсы по Swift и основам iOS разработки."
+      },
+      {
+        "phase_name": "Practice",
+        "topics": [
+          "Создание приложений",
+          "Работа с API",
+          "Тестирование кода",
+          "Управление памятью",
+          "UI/UX проектирование"
+        ],
+        "resources": [
+          {
+            "name": "Курс iOS Developer от Otus",
+            "resource_type": "курс",
+            "url": "https://kurshub.ru/kursy/luchshie-swift-kursy"
+          },
+          {
+            "name": "Skillfactory - Разработка iOS приложений",
+            "resource_type": "курс",
+            "url": "https://kurshub.ru/kursy/luchshie-swift-kursy"
+          }
+        ],
+        "milestone": "Создать два проекта наSwiftUI иUIKit самостоятельно."
+      },
+      {
+        "phase_name": "Portfolio",
+        "topics": [
+          "Публикация приложений",
+          "Оптимизация под App Store",
+          "Построение профессионального портфолио"
+        ],
+        "resources": [
+          {
+            "name": "Создание портфолио и работа с проектами",
+            "resource_type": "статья",
+            "url": "https://www.internet-technologies.ru/courses/code-ios--perm"
+          },
+          {
+            "name": "Советы по созданию приложений для портфолио",
+            "resource_type": "статья",
+            "url": "https://www.internet-technologies.ru/courses/code-ios--perm"
+          }
+        ],
+        "milestone": "Опубликовать два приложения в App Store и оформить портфолио."
+      }
+    ],
+    "gap_analysis": {
+      "quick_wins": [
+        "Git",
+        "Swift 6.x",
+        "SwiftUI",
+        "Combine"
+      ],
+      "long_term": [
+        "Realm",
+        "CI/CD",
+        "Fastlane",
+        "Принципы программирования",
+        "Объектно-ориентированное программирование"
+      ]
+    },
+    "portfolio_project": {
+      "title": "Мобильное приложение для учета задач",
+      "description": "Приложение для учета задач, позволяющее пользователям добавлять, редактировать и удалять задачи с возможностью синхронизации данных через REST API. Использование SwiftUI для интерфейса и Realm для хранения данных.",
+      "stack": [
+        "Swift 6.x",
+        "SwiftUI",
+        "Combine",
+        "Realm",
+        "Git"
+      ]
+    }
+  },
+  "quality_report": {
+    "quality_score": 100,
+    "is_consistent": true,
+    "warnings": [],
+    "reasoning": "Все зарплаты соответствуют уровню навыков и рыночным условиям. В learning_path включены критические навыки. Нет навыков с убывающим трендом, которые бы нарушали обучение. Разница в зарплате между Москвой и регионами адекватна."
+  }
+}

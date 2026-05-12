@@ -1,0 +1,310 @@
+{
+  "vacancy_name": "Backend Python Developer",
+  "generated_at": "2026-05-12T17:57:15.884514",
+  "logs": [
+    "[2026-05-12 17:57:15.885912] Skill Agent started searching for Backend Python Developer",
+    "[2026-05-12 17:57:36.922311] Salary Agent started searching for Backend Python Developer",
+    "[2026-05-12 17:57:59.218859] Study Agent started searching for Backend Python Developer",
+    "[2026-05-12 17:58:21.176775] Study Agent started searching for Backend Python Developer"
+  ],
+  "skill_map": {
+    "skill_map": {
+      "languages": [
+        {
+          "name": "Python",
+          "demand": "critical",
+          "trend": "stable"
+        }
+      ],
+      "frameworks": [
+        {
+          "name": "Django",
+          "demand": "critical",
+          "trend": "stable"
+        },
+        {
+          "name": "FastAPI",
+          "demand": "critical",
+          "trend": "growing"
+        },
+        {
+          "name": "Flask",
+          "demand": "important",
+          "trend": "stable"
+        },
+        {
+          "name": "Django Rest Framework",
+          "demand": "important",
+          "trend": "stable"
+        },
+        {
+          "name": "GraphQL",
+          "demand": "important",
+          "trend": "growing"
+        },
+        {
+          "name": "asyncio",
+          "demand": "important",
+          "trend": "stable"
+        },
+        {
+          "name": "Celery",
+          "demand": "important",
+          "trend": "stable"
+        }
+      ],
+      "infrastructure": [
+        {
+          "name": "Docker",
+          "demand": "critical",
+          "trend": "stable"
+        },
+        {
+          "name": "Kubernetes",
+          "demand": "important",
+          "trend": "stable"
+        },
+        {
+          "name": "AWS",
+          "demand": "critical",
+          "trend": "stable"
+        },
+        {
+          "name": "Google Cloud",
+          "demand": "critical",
+          "trend": "stable"
+        },
+        {
+          "name": "Azure",
+          "demand": "important",
+          "trend": "stable"
+        },
+        {
+          "name": "PostgreSQL",
+          "demand": "critical",
+          "trend": "stable"
+        },
+        {
+          "name": "MongoDB",
+          "demand": "important",
+          "trend": "stable"
+        },
+        {
+          "name": "Redis",
+          "demand": "important",
+          "trend": "stable"
+        },
+        {
+          "name": "RabbitMQ",
+          "demand": "important",
+          "trend": "stable"
+        }
+      ],
+      "soft-skills": [
+        {
+          "name": "быстрое обучение",
+          "demand": "critical",
+          "trend": "stable"
+        },
+        {
+          "name": "аналитическое мышление",
+          "demand": "important",
+          "trend": "stable"
+        },
+        {
+          "name": "умение работать в команде",
+          "demand": "important",
+          "trend": "stable"
+        },
+        {
+          "name": "менторство",
+          "demand": "important",
+          "trend": "stable"
+        }
+      ],
+      "other": [
+        {
+          "name": "gRpc",
+          "demand": "important",
+          "trend": "stable"
+        }
+      ]
+    }
+  },
+  "salary_report": {
+    "grades_table": {
+      "Москва": {
+        "Junior": {
+          "min": 100.0,
+          "median": 115.0,
+          "max": 130.0
+        },
+        "Middle": {
+          "min": 200.0,
+          "median": 240.0,
+          "max": 280.0
+        },
+        "Senior": {
+          "min": 300.0,
+          "median": 400.0,
+          "max": 500.0
+        }
+      },
+      "Регионы РФ": {
+        "Junior": {
+          "min": 50.0,
+          "median": 65.0,
+          "max": 80.0
+        },
+        "Middle": {
+          "min": 150.0,
+          "median": 185.0,
+          "max": 220.0
+        },
+        "Senior": {
+          "min": 200.0,
+          "median": 250.0,
+          "max": 300.0
+        }
+      },
+      "Remote": {
+        "Junior": {
+          "min": 1500.0,
+          "median": 1750.0,
+          "max": 2000.0
+        },
+        "Middle": {
+          "min": 2400.0,
+          "median": 2700.0,
+          "max": 3000.0
+        },
+        "Senior": {
+          "min": 4000.0,
+          "median": 4500.0,
+          "max": 5000.0
+        }
+      }
+    },
+    "market_trend": "Growing. В 2026 году спрос на разработчиков с критически важными навыками (Python, облачные технологии) остается высоким; компании готовы увеличивать зарплаты для привлечения и удержания талантов.",
+    "top_employers": [
+      "Sber",
+      "Yandex",
+      "Ozon",
+      "VK",
+      "Tinkoff"
+    ]
+  },
+  "study_plan": {
+    "learning_path": [
+      {
+        "phase_name": "Foundation",
+        "topics": [
+          "Python",
+          "Django",
+          "FastAPI",
+          "Docker",
+          "AWS",
+          "PostgreSQL"
+        ],
+        "resources": [
+          {
+            "name": "FastAPI — погружение в backend разработку на Python",
+            "resource_type": "курс",
+            "url": "https://kurshub.ru/kursy/fastapi-kursy/"
+          },
+          {
+            "name": "Django for APIs",
+            "resource_type": "курс",
+            "url": "https://www.classcentral.com/report/best-django-courses/"
+          },
+          {
+            "name": "Docker & Kubernetes: The Practical Guide",
+            "resource_type": "курс",
+            "url": "https://www.udemy.com/course/docker-and-kubernetes-the-practical-guide/"
+          },
+          {
+            "name": "Python: работа с API и фреймворками",
+            "resource_type": "курс",
+            "url": "https://kurshub.ru/kursy/python-rabota-s-api-i-frejmvorkami/"
+          }
+        ],
+        "milestone": "Уверенное владение Python, Django, FastAPI и основами Docker."
+      },
+      {
+        "phase_name": "Practice",
+        "topics": [
+          "REST APIs",
+          "Cloud Deployment",
+          "Database Integration"
+        ],
+        "resources": [
+          {
+            "name": "Complete FastAPI masterclass from scratch",
+            "resource_type": "курс",
+            "url": "https://www.udemy.com/course/complete-fastapi-masterclass/"
+          },
+          {
+            "name": "Deploy FastAPI, React, PostgreSQL Apps on Amazon Cloud (AWS)",
+            "resource_type": "курс",
+            "url": "https://www.udemy.com/course/deploy-fastapi-react-postgresql-apps-on-amazon-cloud/"
+          },
+          {
+            "name": "Create a REST API with Django and PostgreSQL",
+            "resource_type": "курс",
+            "url": "https://dev.to/keerthana_696356/best-python-projects-for-2026-beginner-advanced-257l"
+          }
+        ],
+        "milestone": "Создание функционального API с использованием FastAPI и Django, развернутого в облаке."
+      },
+      {
+        "phase_name": "Portfolio",
+        "topics": [
+          "Full Stack Development",
+          "Project Presentation"
+        ],
+        "resources": [
+          {
+            "name": "Build a Chat App using Django",
+            "resource_type": "курс",
+            "url": "https://www.mygreatlearning.com/blog/top-django-projects/"
+          },
+          {
+            "name": "Podcast Platform Backend",
+            "resource_type": "курс",
+            "url": "https://blog.masteringbackend.com/top-5-python-backend-projects-to-boost-your-skills-in-2025"
+          }
+        ],
+        "milestone": "Запуск портфолио-проекта, состоящего из облачного приложения с полным стэком."
+      }
+    ],
+    "gap_analysis": {
+      "quick_wins": [
+        "Docker",
+        "PostgreSQL",
+        "AWS"
+      ],
+      "long_term": [
+        "Django",
+        "FastAPI",
+        "cloud integration"
+      ]
+    },
+    "portfolio_project": {
+      "title": "E-commerce Backend Application",
+      "description": "Создание платформы для управления продуктами, пользователями и заказами с использованием FastAPI, PostgreSQL и Docker с интеграцией API для фронтенда.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Docker",
+        "AWS"
+      ]
+    }
+  },
+  "quality_report": {
+    "quality_score": 100,
+    "is_consistent": true,
+    "warnings": [],
+    "reasoning": "Отчет соответствует всем проверенным критериям. Зарплаты для критических навыков соответствуют рыночным, приоритет обучения учитывает 'critical' навыки, тренды разумны, и разница в зарплатах между регионами согласуется."
+  }
+}

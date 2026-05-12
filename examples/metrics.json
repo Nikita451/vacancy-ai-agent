@@ -1,0 +1,69 @@
+{
+  "model": "openai:gpt-4o-mini",
+  "records": [
+    {
+      "scenario_id": "ios_developer_swift",
+      "scenario_label": "IOS Developer Swift",
+      "framework": "langgraph",
+      "step": "skill_agent.run",
+      "latency_ms": 23964.0,
+      "input_tokens": 31470,
+      "output_tokens": 1164,
+      "usd_cost": 0.005419,
+      "model": "openai:gpt-4o-mini",
+      "token_source": "usage",
+      "extra": {}
+    },
+    {
+      "scenario_id": "ios_developer_swift",
+      "scenario_label": "IOS Developer Swift",
+      "framework": "langgraph",
+      "step": "salary_agent.run",
+      "latency_ms": 13531.0,
+      "input_tokens": 20130,
+      "output_tokens": 528,
+      "usd_cost": 0.003336,
+      "model": "openai:gpt-4o-mini",
+      "token_source": "usage",
+      "extra": {}
+    },
+    {
+      "scenario_id": "ios_developer_swift",
+      "scenario_label": "IOS Developer Swift",
+      "framework": "langgraph",
+      "step": "study_agent.run",
+      "latency_ms": 28826.5,
+      "input_tokens": 21507,
+      "output_tokens": 634,
+      "usd_cost": 0.003606,
+      "model": "openai:gpt-4o-mini",
+      "token_source": "usage",
+      "extra": {}
+    },
+    {
+      "scenario_id": "ios_developer_swift",
+      "scenario_label": "IOS Developer Swift",
+      "framework": "langgraph",
+      "step": "quality_agent.run",
+      "latency_ms": 3721.7,
+      "input_tokens": 1757,
+      "output_tokens": 103,
+      "usd_cost": 0.000325,
+      "model": "openai:gpt-4o-mini",
+      "token_source": "usage",
+      "extra": {}
+    }
+  ],
+  "aggregated": [
+    {
+      "scenario_id": "ios_developer_swift",
+      "scenario_label": "IOS Developer Swift",
+      "framework": "langgraph",
+      "latency_ms": 70043.2,
+      "input_tokens": 74864,
+      "output_tokens": 2429,
+      "usd_cost": 0.012686,
+      "steps": 4
+    }
+  ]
+}

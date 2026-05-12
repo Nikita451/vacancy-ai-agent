@@ -1,0 +1,316 @@
+{
+  "vacancy_name": "ML Engineer",
+  "generated_at": "2026-05-12T17:58:27.582037",
+  "logs": [
+    "[2026-05-12 17:58:27.583749] Skill Agent started searching for ML Engineer",
+    "[2026-05-12 17:58:53.261658] Salary Agent started searching for ML Engineer",
+    "[2026-05-12 17:59:05.992677] Study Agent started searching for ML Engineer",
+    "[2026-05-12 17:59:33.062434] Study Agent started searching for ML Engineer"
+  ],
+  "skill_map": {
+    "skill_map": {
+      "languages": [
+        {
+          "name": "Python",
+          "demand": "critical",
+          "trend": "stable"
+        },
+        {
+          "name": "SQL",
+          "demand": "critical",
+          "trend": "stable"
+        }
+      ],
+      "frameworks": [
+        {
+          "name": "TensorFlow",
+          "demand": "critical",
+          "trend": "growing"
+        },
+        {
+          "name": "PyTorch",
+          "demand": "critical",
+          "trend": "growing"
+        },
+        {
+          "name": "CatBoost",
+          "demand": "critical",
+          "trend": "growing"
+        },
+        {
+          "name": "XGBoost",
+          "demand": "critical",
+          "trend": "growing"
+        },
+        {
+          "name": "LightGBM",
+          "demand": "critical",
+          "trend": "growing"
+        },
+        {
+          "name": "Docker",
+          "demand": "critical",
+          "trend": "growing"
+        },
+        {
+          "name": "FastAPI",
+          "demand": "critical",
+          "trend": "growing"
+        }
+      ],
+      "infrastructure": [
+        {
+          "name": "MLOps",
+          "demand": "critical",
+          "trend": "growing"
+        },
+        {
+          "name": "Linux",
+          "demand": "important",
+          "trend": "stable"
+        }
+      ],
+      "soft-skills": [
+        {
+          "name": "Коммуникация",
+          "demand": "critical",
+          "trend": "stable"
+        },
+        {
+          "name": "Критическое мышление",
+          "demand": "critical",
+          "trend": "stable"
+        },
+        {
+          "name": "Адаптивность",
+          "demand": "important",
+          "trend": "stable"
+        },
+        {
+          "name": "Менторство",
+          "demand": "important",
+          "trend": "growing"
+        },
+        {
+          "name": "Управление временем",
+          "demand": "important",
+          "trend": "stable"
+        }
+      ],
+      "other": [
+        {
+          "name": "AI/ML основы",
+          "demand": "critical",
+          "trend": "stable"
+        },
+        {
+          "name": "Cloud-native разработка",
+          "demand": "important",
+          "trend": "growing"
+        },
+        {
+          "name": "Системный дизайн",
+          "demand": "important",
+          "trend": "growing"
+        },
+        {
+          "name": "Бизнес-аналитика",
+          "demand": "important",
+          "trend": "stable"
+        },
+        {
+          "name": "Growing: AI Agents",
+          "demand": "critical",
+          "trend": "growing"
+        },
+        {
+          "name": "Growing: Rust-based tooling",
+          "demand": "critical",
+          "trend": "growing"
+        }
+      ]
+    }
+  },
+  "salary_report": {
+    "grades_table": {
+      "Москва": {
+        "Junior": {
+          "min": 120000.0,
+          "median": 135000.0,
+          "max": 150000.0
+        },
+        "Middle": {
+          "min": 200000.0,
+          "median": 240000.0,
+          "max": 280000.0
+        },
+        "Senior": {
+          "min": 300000.0,
+          "median": 350000.0,
+          "max": 400000.0
+        }
+      },
+      "Регионы РФ": {
+        "Junior": {
+          "min": 100000.0,
+          "median": 110000.0,
+          "max": 120000.0
+        },
+        "Middle": {
+          "min": 160000.0,
+          "median": 200000.0,
+          "max": 240000.0
+        },
+        "Senior": {
+          "min": 250000.0,
+          "median": 300000.0,
+          "max": 350000.0
+        }
+      },
+      "Remote": {
+        "Junior": {
+          "min": 80000.0,
+          "median": 100000.0,
+          "max": 120000.0
+        },
+        "Middle": {
+          "min": 150000.0,
+          "median": 200000.0,
+          "max": 250000.0
+        },
+        "Senior": {
+          "min": 250000.0,
+          "median": 350000.0,
+          "max": 450000.0
+        }
+      }
+    },
+    "market_trend": "growing",
+    "top_employers": [
+      "Sber",
+      "Yandex",
+      "Ozon",
+      "Tinkoff",
+      "Mail.ru"
+    ]
+  },
+  "study_plan": {
+    "learning_path": [
+      {
+        "phase_name": "Foundation",
+        "topics": [
+          "Python",
+          "SQL",
+          "TensorFlow",
+          "PyTorch",
+          "CatBoost",
+          "XGBoost",
+          "LightGBM",
+          "Docker",
+          "FastAPI",
+          "MLOps",
+          "AI/ML основы",
+          "Growing: AI Agents",
+          "Growing: Rust-based tooling"
+        ],
+        "resources": [
+          {
+            "name": "Machine Learning Crash Course",
+            "resource_type": "курс",
+            "url": "https://www.coursera.org/learn/machine-learning"
+          },
+          {
+            "name": "Deep Learning Specialization",
+            "resource_type": "курс",
+            "url": "https://www.coursera.org/specializations/deep-learning"
+          },
+          {
+            "name": "Great Machine Learning Operations – MLOps Fundamentals",
+            "resource_type": "курс",
+            "url": "https://www.coursera.org/learn/mlops-fundamentals"
+          }
+        ],
+        "milestone": "Завершены курсы по основам Python, SQL и ML."
+      },
+      {
+        "phase_name": "Practice",
+        "topics": [
+          "Docker",
+          "FastAPI",
+          "AI/ML основы",
+          "MLOps",
+          "AI Agents"
+        ],
+        "resources": [
+          {
+            "name": "Complete MLOps Bootcamp with 10+ End-to-End ML Projects",
+            "resource_type": "курс",
+            "url": "https://www.udemy.com/course/mlops-bootcamp/"
+          },
+          {
+            "name": "No-Code AI Agent Building",
+            "resource_type": "курс",
+            "url": "https://www.udemy.com/course/build-ai-agents-no-code/"
+          }
+        ],
+        "milestone": "Создано 2 практических проекта: ML-пайплайн и AI-агент."
+      },
+      {
+        "phase_name": "Portfolio",
+        "topics": [
+          "MLOps",
+          "AI Agents",
+          "Docker",
+          "FastAPI"
+        ],
+        "resources": [
+          {
+            "name": "AI Agents Course by Hugging Face",
+            "resource_type": "курс",
+            "url": "https://huggingface.co/course/chapter1"
+          },
+          {
+            "name": "Deploying AI & Machine Learning Models for Business",
+            "resource_type": "курс",
+            "url": "https://www.udemy.com/course/deploying-ai-models/"
+          }
+        ],
+        "milestone": "Создан портфолио проекта: AI-агент, интегрированный с ML-пайплайном и развернутый на Docker."
+      }
+    ],
+    "gap_analysis": {
+      "quick_wins": [
+        "Docker",
+        "FastAPI",
+        "Менторство"
+      ],
+      "long_term": [
+        "TensorFlow",
+        "PyTorch",
+        "CatBoost",
+        "XGBoost",
+        "LightGBM",
+        "MLOps",
+        "Growing: AI Agents"
+      ]
+    },
+    "portfolio_project": {
+      "title": "AI-агент для автоматизации бизнес процессов",
+      "description": "Создание AI-агента, который будет обрабатывать входящие данные, генерировать отчеты и взаимодействовать с пользователями через веб-интерфейс.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Docker",
+        "TensorFlow",
+        "MLOps",
+        "AI Agents"
+      ]
+    }
+  },
+  "quality_report": {
+    "quality_score": 100,
+    "is_consistent": true,
+    "warnings": [],
+    "reasoning": "Все аспекты отчета логически согласуются друг с другом. Зарплаты соответствуют рыночным условиям, основные навыки для обучения включают критические навыки, навыки с понижением не рассматриваются как ключевые, и разница в зарплатах между Москвой и регионами соблюдается."
+  }
+}
