@@ -28,7 +28,7 @@ async def generate_examples():
         # thread_id гарантирует, что запуски изолированы
         config: RunnableConfig = {"configurable": {
             "thread_id": vacancy,
-            "search_engine": "tavily"  # "ddg"
+            "search_engine": "ddg"  # "tavily" or "ddg"
         }}
         final_state = await app.ainvoke(initial_state, config=config)
 

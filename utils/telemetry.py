@@ -115,9 +115,10 @@ def _compute_cost(model_name: str, input_tokens: int, output_tokens: int) -> flo
     )
 
 TDeps = TypeVar("TDeps")
+TResult = TypeVar("TResult")
 
 async def run_with_telemetry(
-    agent: Agent[Any, TDeps],
+    agent: Agent[TDeps, TResult],
     prompt,
     *,
     scenario_id: str,
@@ -126,12 +127,12 @@ async def run_with_telemetry(
     step: str,
     model: str | None = None,
     extra: dict | None = None,
-    deps: Optional[TDeps] = None,
+    deps: TDeps = None,
 ):
     '''Оборачивает agent.run(...) и складывает latency/tokens/cost в TRACES.'''
     model_name = model or Config.DEFAULT_MODEL
     t0 = time.perf_counter()
-    result = await agent.run(prompt, deps=deps)
+    result = await agent.run(user_prompt=prompt, deps=deps)
     latency_ms = (time.perf_counter() - t0) * 1000
     input_tokens, output_tokens, source = _extract_usage(result)
     usd_cost = _compute_cost(model_name, input_tokens, output_tokens)

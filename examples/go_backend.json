@@ -1,0 +1,282 @@
+{
+  "vacancy_name": "Go Backend",
+  "generated_at": "2026-05-14T14:44:33.336681",
+  "logs": [
+    "[2026-05-14 14:44:33.338090] Skill Agent started searching for Go Backend",
+    "[2026-05-14 14:44:56.434645] Salary Agent started searching for Go Backend",
+    "[2026-05-14 14:45:18.033606] Study Agent started searching for Go Backend",
+    "[2026-05-14 14:45:37.181364] Study Agent started searching for Go Backend"
+  ],
+  "skill_map": {
+    "skill_map": {
+      "languages": [
+        {
+          "name": "Go",
+          "demand": "important",
+          "trend": "stable"
+        },
+        {
+          "name": "Rust (growing)",
+          "demand": "important",
+          "trend": "growing"
+        }
+      ],
+      "frameworks": [
+        {
+          "name": "Gin",
+          "demand": "important",
+          "trend": "growing"
+        },
+        {
+          "name": "Echo",
+          "demand": "important",
+          "trend": "growing"
+        },
+        {
+          "name": "Beego",
+          "demand": "nice-to-have",
+          "trend": "stable"
+        },
+        {
+          "name": "Gorilla Mux",
+          "demand": "nice-to-have",
+          "trend": "stable"
+        }
+      ],
+      "infrastructure": [
+        {
+          "name": "Docker",
+          "demand": "important",
+          "trend": "stable"
+        },
+        {
+          "name": "Kubernetes",
+          "demand": "important",
+          "trend": "growing"
+        },
+        {
+          "name": "AWS",
+          "demand": "important",
+          "trend": "stable"
+        },
+        {
+          "name": "GCP",
+          "demand": "important",
+          "trend": "stable"
+        },
+        {
+          "name": "HTTP/3",
+          "demand": "nice-to-have",
+          "trend": "growing"
+        },
+        {
+          "name": "gRPC",
+          "demand": "important",
+          "trend": "growing"
+        }
+      ],
+      "soft-skills": [
+        {
+          "name": "Problem-solving",
+          "demand": "critical",
+          "trend": "stable"
+        },
+        {
+          "name": "Team collaboration",
+          "demand": "critical",
+          "trend": "stable"
+        },
+        {
+          "name": "Effective communication",
+          "demand": "critical",
+          "trend": "stable"
+        },
+        {
+          "name": "Adaptability",
+          "demand": "critical",
+          "trend": "stable"
+        }
+      ],
+      "other": [
+        {
+          "name": "AI Agents (growing)",
+          "demand": "important",
+          "trend": "growing"
+        },
+        {
+          "name": "Rust-based tooling (growing)",
+          "demand": "important",
+          "trend": "growing"
+        }
+      ]
+    }
+  },
+  "salary_report": {
+    "grades_table": {
+      "Москва": {
+        "Junior": {
+          "min": 200.0,
+          "median": 250.0,
+          "max": 300.0
+        },
+        "Middle": {
+          "min": 350.0,
+          "median": 450.0,
+          "max": 600.0
+        },
+        "Senior": {
+          "min": 600.0,
+          "median": 700.0,
+          "max": 800.0
+        }
+      },
+      "Регионы РФ": {
+        "Junior": {
+          "min": 150.0,
+          "median": 200.0,
+          "max": 250.0
+        },
+        "Middle": {
+          "min": 250.0,
+          "median": 325.0,
+          "max": 400.0
+        },
+        "Senior": {
+          "min": 400.0,
+          "median": 500.0,
+          "max": 600.0
+        }
+      },
+      "Remote": {
+        "Junior": {
+          "min": 3.0,
+          "median": 4.0,
+          "max": 5.0
+        },
+        "Middle": {
+          "min": 5.0,
+          "median": 6.5,
+          "max": 8.0
+        },
+        "Senior": {
+          "min": 8.0,
+          "median": 10.0,
+          "max": 12.0
+        }
+      }
+    },
+    "market_trend": "Рынок развивает стабильный рост зарплат для разработчиков, особенно с опытными Go и Rust разработчиками, что связано с высоким спросом на эти языки и необходимыми критическими навыками.",
+    "top_employers": [
+      "Yandex",
+      "VK",
+      "Tinkoff",
+      "Ozon",
+      "Sber"
+    ]
+  },
+  "study_plan": {
+    "learning_path": [
+      {
+        "phase_name": "Foundation",
+        "topics": [
+          "Problem-solving",
+          "Effective communication",
+          "Team collaboration",
+          "Adaptability",
+          "Go",
+          "Rust",
+          "Docker",
+          "Kubernetes",
+          "AWS",
+          "GCP"
+        ],
+        "resources": [
+          {
+            "name": "Курс по решению проблем",
+            "resource_type": "курс",
+            "url": "https://example.com/problem-solving"
+          },
+          {
+            "name": "Командная работа: правильные подходы",
+            "resource_type": "курс",
+            "url": "https://example.com/team-collaboration"
+          }
+        ],
+        "milestone": "Освоены базовые навыки и языки программирования"
+      },
+      {
+        "phase_name": "Practice",
+        "topics": [
+          "Go",
+          "Rust",
+          "Docker",
+          "Kubernetes",
+          "gRPC"
+        ],
+        "resources": [
+          {
+            "name": "Изучение Go: от нуля до прототипа",
+            "resource_type": "курс",
+            "url": "https://example.com/go-course"
+          },
+          {
+            "name": "Rust: практическое руководство",
+            "resource_type": "курс",
+            "url": "https://example.com/rust-course"
+          }
+        ],
+        "milestone": "Создание простых приложений на Go и Rust."
+      },
+      {
+        "phase_name": "Portfolio",
+        "topics": [
+          "AI Agents",
+          "Rust-based tooling",
+          "Продвинутые фреймворки"
+        ],
+        "resources": [
+          {
+            "name": "Создание AI-агентов с использованием Rust",
+            "resource_type": "курс",
+            "url": "https://example.com/ai-agents"
+          },
+          {
+            "name": "Фреймворки на Go для продуктивной разработки",
+            "resource_type": "курс",
+            "url": "https://example.com/go-frameworks"
+          }
+        ],
+        "milestone": "Разработка проекта для портфолио, использующего опыт в AI и фреймворках."
+      }
+    ],
+    "gap_analysis": {
+      "quick_wins": [
+        "Docker",
+        "gRPC",
+        "Kubernetes"
+      ],
+      "long_term": [
+        "Go",
+        "Rust",
+        "AI Agents"
+      ]
+    },
+    "portfolio_project": {
+      "title": "Интеллектуальная система управления задачами",
+      "description": "Разработка системы, использующей AI-агентов для назначения и отслеживания задач, с использованием Go, Rust, gRPC и Docker.",
+      "stack": [
+        "Go",
+        "Rust",
+        "gRPC",
+        "Docker",
+        "Kubernetes"
+      ]
+    }
+  },
+  "quality_report": {
+    "quality_score": 100,
+    "is_consistent": true,
+    "warnings": [],
+    "reasoning": "Отчет соответствует всем критериям проверки. Зарплаты соответствуют рыночным условиям, навыки в learning_path правильно расставлены по приоритетам, тренды навыков учитываются, а разница в зарплатах между Москвой и регионами логична."
+  }
+}
