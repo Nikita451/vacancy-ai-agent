@@ -1,0 +1,269 @@
+{
+  "vacancy_name": "Java Backend",
+  "generated_at": "2026-05-14T12:39:38.860008",
+  "logs": [
+    "[2026-05-14 12:39:38.861805] Skill Agent started searching for Java Backend",
+    "[2026-05-14 12:39:58.501963] Salary Agent started searching for Java Backend",
+    "[2026-05-14 12:40:25.757292] Study Agent started searching for Java Backend",
+    "[2026-05-14 12:40:41.715645] Study Agent started searching for Java Backend"
+  ],
+  "skill_map": {
+    "skill_map": {
+      "languages": [
+        {
+          "name": "Java",
+          "demand": "critical",
+          "trend": "stable"
+        },
+        {
+          "name": "SQL",
+          "demand": "critical",
+          "trend": "stable"
+        }
+      ],
+      "frameworks": [
+        {
+          "name": "Spring Boot",
+          "demand": "critical",
+          "trend": "stable"
+        },
+        {
+          "name": "Hibernate",
+          "demand": "critical",
+          "trend": "stable"
+        },
+        {
+          "name": "Apache Spark",
+          "demand": "important",
+          "trend": "growing"
+        },
+        {
+          "name": "Kafka",
+          "demand": "important",
+          "trend": "growing"
+        },
+        {
+          "name": "Docker",
+          "demand": "important",
+          "trend": "growing"
+        },
+        {
+          "name": "FastAPI",
+          "demand": "important",
+          "trend": "growing"
+        }
+      ],
+      "infrastructure": [
+        {
+          "name": "CI/CD",
+          "demand": "critical",
+          "trend": "stable"
+        },
+        {
+          "name": "Microservices",
+          "demand": "important",
+          "trend": "growing"
+        }
+      ],
+      "soft-skills": [
+        {
+          "name": "Problem-solving",
+          "demand": "critical",
+          "trend": "stable"
+        },
+        {
+          "name": "Team collaboration",
+          "demand": "critical",
+          "trend": "stable"
+        },
+        {
+          "name": "Adaptability",
+          "demand": "important",
+          "trend": "stable"
+        }
+      ],
+      "other": [
+        {
+          "name": "AI integration (growing)",
+          "demand": "important",
+          "trend": "growing"
+        },
+        {
+          "name": "Reactive programming",
+          "demand": "important",
+          "trend": "growing"
+        }
+      ]
+    }
+  },
+  "salary_report": {
+    "grades_table": {
+      "Москва": {
+        "Junior": {
+          "min": 100.0,
+          "median": 115.0,
+          "max": 130.0
+        },
+        "Middle": {
+          "min": 180.0,
+          "median": 200.0,
+          "max": 220.0
+        },
+        "Senior": {
+          "min": 290.0,
+          "median": 320.0,
+          "max": 350.0
+        }
+      },
+      "Регионы РФ": {
+        "Junior": {
+          "min": 80.0,
+          "median": 90.0,
+          "max": 100.0
+        },
+        "Middle": {
+          "min": 150.0,
+          "median": 165.0,
+          "max": 180.0
+        },
+        "Senior": {
+          "min": 240.0,
+          "median": 260.0,
+          "max": 280.0
+        }
+      },
+      "Remote": {
+        "Junior": {
+          "min": 150.0,
+          "median": 165.0,
+          "max": 180.0
+        },
+        "Middle": {
+          "min": 250.0,
+          "median": 275.0,
+          "max": 300.0
+        },
+        "Senior": {
+          "min": 400.0,
+          "median": 450.0,
+          "max": 500.0
+        }
+      }
+    },
+    "market_trend": "growing",
+    "top_employers": [
+      "Сбер",
+      "Яндекс",
+      "Озон",
+      "Тинькофф",
+      "Альфа-банк"
+    ]
+  },
+  "study_plan": {
+    "learning_path": [
+      {
+        "phase_name": "Foundation",
+        "topics": [
+          "Java",
+          "SQL",
+          "Spring Boot",
+          "Hibernate",
+          "CI/CD",
+          "Problem-solving",
+          "Team collaboration"
+        ],
+        "resources": [
+          {
+            "name": "Java Programming and Software Engineering Fundamentals",
+            "resource_type": "курс",
+            "url": "https://career.habr.com/courses"
+          },
+          {
+            "name": "SQL for Data Science",
+            "resource_type": "курс",
+            "url": "https://career.habr.com/courses"
+          },
+          {
+            "name": "Spring Framework: Beginner to Guru",
+            "resource_type": "курс",
+            "url": "https://career.habr.com/courses"
+          },
+          {
+            "name": "Java Persistence: Hibernate & JPA Fundamentals",
+            "resource_type": "курс",
+            "url": "https://career.habr.com/courses"
+          }
+        ],
+        "milestone": "Завершение курсов по Java, SQL, Spring, Hibernate и основным soft-skills."
+      },
+      {
+        "phase_name": "Practice",
+        "topics": [
+          "CI/CD",
+          "Spring Boot",
+          "Hibernate"
+        ],
+        "resources": [
+          {
+            "name": "Building Scalable Java Microservices with Spring Boot and Spring Cloud",
+            "resource_type": "курс",
+            "url": "https://career.habr.com/courses"
+          },
+          {
+            "name": "CI/CD with Jenkins",
+            "resource_type": "курс",
+            "url": "https://career.habr.com/courses"
+          }
+        ],
+        "milestone": "Создание мини-проекта с использованием CI/CD и Spring Boot."
+      },
+      {
+        "phase_name": "Portfolio",
+        "topics": [
+          "AI integration",
+          "Reactive programming"
+        ],
+        "resources": [
+          {
+            "name": "AI integration in Java",
+            "resource_type": "статья",
+            "url": "https://habr.com/ru/articles/1031802/"
+          },
+          {
+            "name": "Reactive Programming in Java",
+            "resource_type": "статья",
+            "url": "https://career.habr.com/courses"
+          }
+        ],
+        "milestone": "Создание портфолио-проекта на основе интеграции AI и реактивного программирования."
+      }
+    ],
+    "gap_analysis": {
+      "quick_wins": [
+        "SQL",
+        "Problem-solving"
+      ],
+      "long_term": [
+        "Java",
+        "Spring Boot",
+        "CI/CD"
+      ]
+    },
+    "portfolio_project": {
+      "title": "AI-Powered Analytics Dashboard",
+      "description": "Создание аналитической панели, использующей Java, Spring Boot, и AI-интеграции для обработки данных и представления аналитики в реальном времени.",
+      "stack": [
+        "Java",
+        "Spring Boot",
+        "AI",
+        "CI/CD"
+      ]
+    }
+  },
+  "quality_report": {
+    "quality_score": 100,
+    "is_consistent": true,
+    "warnings": [],
+    "reasoning": "Все указанные данные соответствуют логическим ожиданиям и требованиям. Зарплаты адекватны для указанных навыков, 'critical' навыки правильно представлены в пути обучения, и тренды навыков логично отражают их статус."
+  }
+}

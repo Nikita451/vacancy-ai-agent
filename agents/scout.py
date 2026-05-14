@@ -2,7 +2,7 @@ from pydantic_ai import RunContext
 from pydantic_ai import Agent
 from schema import SkillMap
 from config import Config
-from utils.requester import perform_search
+from utils.requester import perform_search, perform_searchDDG
 
 
 skill_agent = Agent(
@@ -27,5 +27,5 @@ async def fetch_market_skills(ctx: RunContext[None], specialty: str) -> str:
     """Ищет в интернете актуальный стек технологий и требования для указанной специальности на 2025-2026 годы."""
     query = f"актуальный стек технологий и навыки {specialty} 2025 2026"
     print(f"🔎 Исследую рынок для: {specialty}...")
-    
-    return await perform_search(query)
+    return await perform_searchDDG(query=query, search_type="skills")
+    # return await perform_search(query)

@@ -2,7 +2,7 @@
 from pydantic_ai import Agent, RunContext
 from config import Config
 from schema import SalaryReport
-from utils.requester import perform_search
+from utils.requester import perform_search, perform_searchDDG
 
 salary_agent = Agent(
     Config.DEFAULT_MODEL,
@@ -28,4 +28,5 @@ async def fetch_salary_data(ctx: RunContext[None], specialty: str) -> str:
     query = f"зарплата {specialty} москва 2025 2026 вилка вакансии"
     print(f"💰 Ищу актуальные зарплаты для: {specialty}...")
     
-    return await perform_search(query, max_results=5)
+    # return await perform_search(query, max_results=5)
+    return await perform_searchDDG(query=query, search_type="salary")

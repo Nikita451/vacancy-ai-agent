@@ -1,7 +1,7 @@
 from pydantic_ai import Agent, RunContext
 from config import Config
 from schema import StudyPlan
-from utils.requester import perform_search
+from utils.requester import perform_search, perform_searchDDG
 
 
 study_agent = Agent(
@@ -38,4 +38,5 @@ async def fetch_learning_resources(ctx: RunContext[None], categories: list[str])
     """Ищет учебные материалы сразу по нескольким категориям (например, ['Python', 'Javascript'])."""
     query = f"лучшие курсы и гайды по темам: {', '.join(categories)} 2025 2026"
     print(f"📚 Групповой поиск по темам: {categories}...")  
-    return await perform_search(query, max_results=15)
+    # return await perform_search(query, max_results=15)
+    return await perform_searchDDG(query=query, search_type="learning")
