@@ -1,3 +1,4 @@
+from dataclasses import dataclass
 import os
 from pydantic import BaseModel, Field
 from typing import List, Literal, Dict, Optional, TypedDict
@@ -69,6 +70,15 @@ class QualityReport(BaseModel):
     warnings: List[str] = Field(description="Список найденных нестыковок или подозрительных данных")
     reasoning: str = Field(description="Краткое обоснование оценки (2-3 предложения)")
 
+class GraphConfiguration(BaseModel):
+    search_engine: Literal["tavily", "ddg"] = Field(
+        default="ddg",
+        description="Выбор поискового движка"
+    )
+
+@dataclass
+class AgentDeps:
+    search_engine: Literal["tavily", "ddg"]
 
 class HRState(TypedDict):
     scenario_id: str

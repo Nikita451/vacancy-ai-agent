@@ -5,16 +5,21 @@ from agents.scout import skill_agent
 from agents.finance import salary_agent
 from agents.mentor import study_agent
 from agents.auditor import quality_agent
-from schema import HRState
+from schema import AgentDeps, HRState
 from utils.format import safe_dump
 from utils.telemetry import run_with_telemetry
 import json
+from langchain_core.runnables import RunnableConfig
 
-
-async def skill_node(state: HRState):
-    print("🔎 Узел: Поиск навыков...")
+async def skill_node(state: HRState, config: RunnableConfig):
+    configurable = config.get("configurable", {})
+    selected_engine = configurable.get("search_engine", "ddg")
+    dependencies = AgentDeps(search_engine=selected_engine)
+    print(f"🔎 Узел: Поиск навыков...Search engine: {selected_engine}")
+    
     log_entry = f"[{datetime.now()}] Skill Agent started searching for {state['vacancy_name']}"
     # result = await skill_agent.run(state["vacancy_name"])
+    
     result = await run_with_telemetry(
         skill_agent,
         state["vacancy_name"],
@@ -22,14 +27,19 @@ async def skill_node(state: HRState):
         scenario_label=state["scenario_label"],
         framework="langgraph",
         step="skill_agent.run",
+        deps=dependencies,
     )
     return {
       "skill_map": result.output,
       "logs": state.get("logs", []) + [log_entry]
     }
 
-async def salary_node(state: HRState):
-    print("💰 Узел: Анализ зарплат...")
+async def salary_node(state: HRState, config: RunnableConfig):
+    configurable = config.get("configurable", {})
+    selected_engine = configurable.get("search_engine", "ddg")
+    dependencies = AgentDeps(search_engine=selected_engine)
+    print(f"💰 Узел: Анализ зарплат...Search engine: {selected_engine}")
+
     log_entry = f"[{datetime.now()}] Salary Agent started searching for {state['vacancy_name']}"
     skill_result = safe_dump(state["skill_map"])
 
@@ -40,6 +50,7 @@ async def salary_node(state: HRState):
         scenario_label=state["scenario_label"],
         framework="langgraph",
         step="salary_agent.run",
+        deps=dependencies,
     )
     return {
         "salary_report": result.output,
@@ -47,8 +58,12 @@ async def salary_node(state: HRState):
     }
 
 
-async def study_node(state: HRState):
-    print("📚 Узел: Разработка плана обучения...")
+async def study_node(state: HRState, config: RunnableConfig):
+    configurable = config.get("configurable", {})
+    selected_engine = configurable.get("search_engine", "ddg")
+    dependencies = AgentDeps(search_engine=selected_engine)
+
+    print(f"📚 Узел: Разработка плана обучения...Search engine: {selected_engine}")
     log_entry = f"[{datetime.now()}] Study Agent started searching for {state['vacancy_name']}"
     # Собираем контекст из предыдущих узлов
     context = {
@@ -63,6 +78,7 @@ async def study_node(state: HRState):
         scenario_label=state["scenario_label"],
         framework="langgraph",
         step="study_agent.run",
+        deps=dependencies,
     )
     return {
       "study_plan": result.output,

@@ -1,7 +1,8 @@
 from pydantic_ai import Agent, RunContext
 from config import Config
-from schema import StudyPlan
+from schema import AgentDeps, StudyPlan
 from utils.requester import perform_search, perform_searchDDG
+from langchain_core.runnables import RunnableConfig
 
 
 study_agent = Agent(
@@ -9,6 +10,7 @@ study_agent = Agent(
     output_type=StudyPlan,
     tool_retries=5,
     retries=6,
+    deps_type=AgentDeps,
     instructions="""
     Ты — ментор по карьере в IT. 
     Твоя задача: на основе карты навыков и анализа зарплат составить план роста.
@@ -34,9 +36,14 @@ study_agent = Agent(
 )
 
 @study_agent.tool
-async def fetch_learning_resources(ctx: RunContext[None], categories: list[str]) -> str:
+async def fetch_learning_resources(ctx: RunContext[AgentDeps], categories: list[str]) -> str:
     """Ищет учебные материалы сразу по нескольким категориям (например, ['Python', 'Javascript'])."""
     query = f"лучшие курсы и гайды по темам: {', '.join(categories)} 2025 2026"
-    print(f"📚 Групповой поиск по темам: {categories}...")  
-    # return await perform_search(query, max_results=15)
+    selected_engine = ctx.deps.search_engine
+
+    print(f"📚 Групповой поиск по темам: {categories}...Engine: {selected_engine}")  
+    
+    if selected_engine == "tavily":
+        return await perform_search(query)
+
     return await perform_searchDDG(query=query, search_type="learning")

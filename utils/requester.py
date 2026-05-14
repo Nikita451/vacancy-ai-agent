@@ -89,12 +89,3 @@ async def perform_searchDDG(*, query: str, search_type: str = "general", max_res
         ])
     except Exception as e:
         return f"Ошибка поиска: {e}"
-
-# Тестовый запуск (можно закомментировать)
-# if __name__ == "__main__":
-#    res = asyncio.run(perform_search(query="Зарплаты Python разработчика 2026"))
-#    print(res)
-
-
-if __name__ == "__main__":
-    asyncio.run(perform_searchDDG(query=f"site:habr.com OR site:getmatch.ru зарплаты LM-инженер"))

@@ -2,10 +2,10 @@
 from langgraph.graph import END, START, StateGraph
 
 from nodes import quality_node, salary_node, skill_node, study_node
-from schema import HRState
+from schema import GraphConfiguration, HRState
 
 
-workflow = StateGraph(HRState)
+workflow = StateGraph(state_schema=HRState, context_schema=GraphConfiguration)
 
 # Добавляем узлы в граф
 workflow.add_node("skill_node", skill_node)

@@ -4,6 +4,10 @@
 
 from dataclasses import dataclass, asdict, field
 import time
+from typing import Any, Optional, TypeVar
+
+from langchain_protocol import RunResult
+from pydantic_ai import Agent
 from config import Config
 import json
 
@@ -110,9 +114,10 @@ def _compute_cost(model_name: str, input_tokens: int, output_tokens: int) -> flo
         6,
     )
 
+TDeps = TypeVar("TDeps")
 
 async def run_with_telemetry(
-    agent,
+    agent: Agent[Any, TDeps],
     prompt,
     *,
     scenario_id: str,
@@ -121,11 +126,12 @@ async def run_with_telemetry(
     step: str,
     model: str | None = None,
     extra: dict | None = None,
+    deps: Optional[TDeps] = None,
 ):
     '''Оборачивает agent.run(...) и складывает latency/tokens/cost в TRACES.'''
     model_name = model or Config.DEFAULT_MODEL
     t0 = time.perf_counter()
-    result = await agent.run(prompt)
+    result = await agent.run(prompt, deps=deps)
     latency_ms = (time.perf_counter() - t0) * 1000
     input_tokens, output_tokens, source = _extract_usage(result)
     usd_cost = _compute_cost(model_name, input_tokens, output_tokens)

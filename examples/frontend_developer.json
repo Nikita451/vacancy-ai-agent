@@ -1,0 +1,306 @@
+{
+  "vacancy_name": "Frontend Developer",
+  "generated_at": "2026-05-14T13:56:35.370597",
+  "logs": [
+    "[2026-05-14 13:56:35.371982] Skill Agent started searching for Frontend Developer",
+    "[2026-05-14 13:57:04.298155] Salary Agent started searching for Frontend Developer",
+    "[2026-05-14 13:57:31.105841] Study Agent started searching for Frontend Developer",
+    "[2026-05-14 13:57:52.819823] Study Agent started searching for Frontend Developer"
+  ],
+  "skill_map": {
+    "skill_map": {
+      "languages": [
+        {
+          "name": "HTML",
+          "demand": "critical",
+          "trend": "stable"
+        },
+        {
+          "name": "CSS",
+          "demand": "critical",
+          "trend": "stable"
+        },
+        {
+          "name": "JavaScript (ES2025+)",
+          "demand": "critical",
+          "trend": "stable"
+        },
+        {
+          "name": "TypeScript",
+          "demand": "critical",
+          "trend": "stable"
+        }
+      ],
+      "frameworks": [
+        {
+          "name": "React 18+/Next.js 15",
+          "demand": "critical",
+          "trend": "stable"
+        },
+        {
+          "name": "Vue 3/Nuxt 4",
+          "demand": "critical",
+          "trend": "stable"
+        },
+        {
+          "name": "SvelteKit",
+          "demand": "important",
+          "trend": "growing"
+        },
+        {
+          "name": "Angular",
+          "demand": "critical",
+          "trend": "stable"
+        }
+      ],
+      "infrastructure": [
+        {
+          "name": "Vite",
+          "demand": "important",
+          "trend": "stable"
+        },
+        {
+          "name": "Turbopack",
+          "demand": "important",
+          "trend": "growing"
+        },
+        {
+          "name": "Webpack 6",
+          "demand": "critical",
+          "trend": "stable"
+        },
+        {
+          "name": "REST",
+          "demand": "critical",
+          "trend": "stable"
+        },
+        {
+          "name": "GraphQL",
+          "demand": "critical",
+          "trend": "stable"
+        },
+        {
+          "name": "tRPC",
+          "demand": "important",
+          "trend": "stable"
+        },
+        {
+          "name": "GitHub Actions",
+          "demand": "important",
+          "trend": "stable"
+        },
+        {
+          "name": "GitLab CI",
+          "demand": "important",
+          "trend": "stable"
+        }
+      ],
+      "soft-skills": [
+        {
+          "name": "Командная работа",
+          "demand": "critical",
+          "trend": "stable"
+        },
+        {
+          "name": "Agile",
+          "demand": "important",
+          "trend": "stable"
+        },
+        {
+          "name": "Адаптация к новому стеку",
+          "demand": "important",
+          "trend": "stable"
+        },
+        {
+          "name": "Понимание UX и бизнеса",
+          "demand": "important",
+          "trend": "stable"
+        }
+      ],
+      "other": [
+        {
+          "name": "AI-интеграции (ChatGPT API)",
+          "demand": "important",
+          "trend": "growing"
+        },
+        {
+          "name": "growing",
+          "demand": "nice-to-have",
+          "trend": "stable"
+        }
+      ]
+    }
+  },
+  "salary_report": {
+    "grades_table": {
+      "Москва": {
+        "Junior": {
+          "min": 90.0,
+          "median": 120.0,
+          "max": 150.0
+        },
+        "Middle": {
+          "min": 200.0,
+          "median": 250.0,
+          "max": 300.0
+        },
+        "Senior": {
+          "min": 350.0,
+          "median": 400.0,
+          "max": 450.0
+        }
+      },
+      "Регионы РФ": {
+        "Junior": {
+          "min": 60.0,
+          "median": 80.0,
+          "max": 100.0
+        },
+        "Middle": {
+          "min": 140.0,
+          "median": 190.0,
+          "max": 250.0
+        },
+        "Senior": {
+          "min": 220.0,
+          "median": 260.0,
+          "max": 300.0
+        }
+      },
+      "Remote": {
+        "Junior": {
+          "min": 1200.0,
+          "median": 1350.0,
+          "max": 1500.0
+        },
+        "Middle": {
+          "min": 2500.0,
+          "median": 3000.0,
+          "max": 3500.0
+        },
+        "Senior": {
+          "min": 5000.0,
+          "median": 7000.0,
+          "max": 9000.0
+        }
+      }
+    },
+    "market_trend": "Stable; despite fluctuations in other sectors, IT remains resilient with a constant demand for skilled frontend developers.",
+    "top_employers": [
+      "Sber",
+      "Yandex",
+      "Ozon",
+      "Tinkoff",
+      "Mail.ru"
+    ]
+  },
+  "study_plan": {
+    "learning_path": [
+      {
+        "phase_name": "Foundation",
+        "topics": [
+          "HTML",
+          "CSS",
+          "JavaScript (ES2025+)",
+          "TypeScript",
+          "React 18+/Next.js 15",
+          "Vue 3/Nuxt 4",
+          "Angular",
+          "Webpack 6",
+          "REST",
+          "GraphQL",
+          "Командная работа",
+          "Agile"
+        ],
+        "resources": [
+          {
+            "name": "Курс по разработке на Next.js",
+            "resource_type": "курс",
+            "url": "https://learn.javascript.ru/courses/nextjs"
+          },
+          {
+            "name": "JavaScript.ru",
+            "resource_type": "статья",
+            "url": "https://learn.javascript.ru"
+          }
+        ],
+        "milestone": "Освоить базовые языки и фреймворки фронтенд разработки."
+      },
+      {
+        "phase_name": "Practice",
+        "topics": [
+          "GitHub Actions",
+          "AI-интеграции (ChatGPT API)",
+          "REST",
+          "GraphQL",
+          "Командная работа",
+          "Адаптация к новому стеку"
+        ],
+        "resources": [
+          {
+            "name": "Курс по AI-агентам",
+            "resource_type": "курс",
+            "url": "https://it-academy.by/course/ai-agenty-dlya-avtomatizatsii-biznesa/"
+          },
+          {
+            "name": "Практика c GitHub Actions",
+            "resource_type": "статья",
+            "url": "https://skillsmart.ru/feedback/"
+          }
+        ],
+        "milestone": "Создать работающие интеграции с использованием GitHub Actions и AI."
+      },
+      {
+        "phase_name": "Portfolio",
+        "topics": [
+          "Финальный проект с использованием React и GraphQL",
+          "Внедрение AI-решений в проект",
+          "Командная работа и Agile"
+        ],
+        "resources": [
+          {
+            "name": "Проект \"Умный помощник на основе ChatGPT\"",
+            "resource_type": "курс",
+            "url": null
+          },
+          {
+            "name": "AI в управлении проектами",
+            "resource_type": "статья",
+            "url": "https://sber.pro/digital/publication/intellektualnii-menedzhment-kak-ai-resheniya-pomogayut-upravlyat-proektami/"
+          }
+        ],
+        "milestone": "Создать и задокументировать проект умного помощника на основе React и интеграции AI."
+      }
+    ],
+    "gap_analysis": {
+      "quick_wins": [
+        "HTML",
+        "CSS",
+        "JavaScript (ES2025+)"
+      ],
+      "long_term": [
+        "TypeScript",
+        "React 18+/Next.js 15",
+        "GraphQL",
+        "AI-интеграции"
+      ]
+    },
+    "portfolio_project": {
+      "title": "Умный помощник на основе ChatGPT",
+      "description": "Создание веб-приложения, использующего React для интерфейса и ChatGPT API для автоматизации взаимодействий с пользователем, включая интеграцию с REST и GraphQL для управления данными.",
+      "stack": [
+        "React",
+        "GraphQL",
+        "ChatGPT API",
+        "TypeScript",
+        "GitHub Actions"
+      ]
+    }
+  },
+  "quality_report": {
+    "quality_score": 90,
+    "is_consistent": true,
+    "warnings": [],
+    "reasoning": "Все зарплаты соответствуют рыночным условиям, а в learning_path присутствуют 'critical' навыки. Тренды соблюдены, обучение не включает уменьшающиеся навыки. Разница в зарплатах между Москвой и регионами логична."
+  }
+}
