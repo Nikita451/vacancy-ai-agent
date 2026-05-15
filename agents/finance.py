@@ -9,7 +9,7 @@ salary_agent = Agent(
     Config.DEFAULT_MODEL,
     output_type=SalaryReport,
     tool_retries=2,
-    retries=3,
+    output_retries=3,
     deps_type=AgentDeps,
     instructions="""
     Ты — эксперт по компенсациям в IT. 

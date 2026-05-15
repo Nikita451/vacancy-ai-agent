@@ -9,7 +9,7 @@ study_agent = Agent(
     Config.DEFAULT_MODEL,
     output_type=StudyPlan,
     tool_retries=5,
-    retries=6,
+    output_retries=6,
     deps_type=AgentDeps,
     instructions="""
     Ты — ментор по карьере в IT. 

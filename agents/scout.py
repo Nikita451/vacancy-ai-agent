@@ -9,7 +9,7 @@ skill_agent = Agent(
     Config.DEFAULT_MODEL,
     output_type=SkillMap,
     tool_retries=10,
-    retries=10,
+    output_retries=10,
     deps_type=AgentDeps,
     instructions=(
         "Ты — Senior Tech Scout. Твоя задача — составить карту навыков на основе РЕАЛЬНЫХ данных из сети.\n"
